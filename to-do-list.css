@@ -1,0 +1,22 @@
+.day-list {
+    color: crimson;
+    display: flex;
+}
+
+.day {
+    padding: 35px;
+    color: blue; 
+    list-style-type: none;
+}
+
+.title {
+    color: darkorchid;
+    text-align: center;
+    border-style: double;
+    border-radius: 20px;
+}
+
+.week {
+    text-align: center;
+    color: #8BC34A;
+}
