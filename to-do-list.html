@@ -6,15 +6,20 @@
     <title>To do list</title>
   </head>
   <body>
-    <h1>My to do list</h1>
-    <h2>Day of week</h2> <ul class="day-list">
+    <h1 class="title">My to do list</h1>
+    <h2 class="week">Day of week</h2>
+     <ul class="day-list">
         <li class="day">
             <p>Monday</p>
             <input type="text" id="monday-input">
-            <button onclick="add()">add</button>
+            <button onclick="addMonday()">add</button>
             <ol id="Mondaylist"></ol>
         </li>
-        <li class="day">Tuesday</li>
+        <li class="day">
+          <p>Tuesday</p>
+          <input type="text" id="tuesday-input">
+          <button onclick="addTuesday()">add</button>
+          <ol id="Tuesdaylist"></ol></li>
         <li class="day">Wednesday</li>
         <li class="day">Thursday</li>
         <li class="day">Friday</li>
