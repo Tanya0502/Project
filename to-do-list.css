@@ -1,12 +1,26 @@
 .day-list {
     color: crimson;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    place-content: space-evenly;
+    padding: 0 5px
 }
 
 .day {
     padding: 35px;
     color: blue; 
     list-style-type: none;
+    border: 1px solid #8BC34A;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, #FFEB3B, #8BC34A, yellow);
+}
+
+.My-to-do-list {
+    border: 10px solid #9C27B0;
+    border-radius: 20px;
 }
 
 .title {
@@ -14,9 +28,15 @@
     text-align: center;
     border-style: double;
     border-radius: 20px;
+    background: -webkit-linear-gradient(left, #FFEB3B, #8BC34A, yellow);
 }
 
 .week {
     text-align: center;
     color: #8BC34A;
+    text-align: center;
+    color: #8BC34A;
+    text-decoration: underline;
+    text-decoration-color: #9C27B0;
+    text-decoration-style: double;
 }
